@@ -1,0 +1,19 @@
+|lab6_verilog_example
+a => out3.OUTPUTSELECT
+a => out3.OUTPUTSELECT
+a => out1.OUTPUTSELECT
+a => out2.OUTPUTSELECT
+b => out3.DATAB
+b => Equal0.IN1
+c => out3.DATAA
+c => Equal0.IN0
+d => out3.DATAB
+e => out3.DATAA
+g[0] => Decoder0.IN1
+g[1] => Decoder0.IN0
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+out2 <= out2.DB_MAX_OUTPUT_PORT_TYPE
+out3[0] <= out3.DB_MAX_OUTPUT_PORT_TYPE
+out3[1] <= out3.DB_MAX_OUTPUT_PORT_TYPE
+
+

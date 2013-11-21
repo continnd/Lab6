@@ -1,0 +1,101 @@
+|verilogToSchematic
+out1 <= 21mux:inst7.Y
+a => 21mux:inst7.S
+a => 21mux:inst4.S
+a => 21mux:inst8.S
+a => 21mux:inst9.S
+c => 21mux:inst.S
+c => 21mux:inst8.B
+b => 21mux:inst2.S
+b => 21mux:inst3.S
+b => 21mux:inst8.A
+out2 <= 21mux:inst4.Y
+g[0] => 21mux:inst1.S
+g[1] => 21mux:inst6.S
+g[1] => 21mux:inst5.S
+out3 <= 21mux:inst8.Y
+out4 <= 21mux:inst9.Y
+e => 21mux:inst9.B
+d => 21mux:inst9.A
+
+
+|verilogToSchematic|21mux:inst7
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst3
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst4
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst1
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst6
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst5
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst8
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|verilogToSchematic|21mux:inst9
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
